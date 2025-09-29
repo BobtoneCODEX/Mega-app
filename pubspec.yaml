@@ -1,0 +1,31 @@
+name: my_flutter_app
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  pin_code_fields: ^8.0.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/apple.png
+    - assets/images/facebook.png
+    - assets/images/google.png
+    - assets/images/pic.png
+    - assets/images/Logo.png
+    - assets/images/Sticker.png
